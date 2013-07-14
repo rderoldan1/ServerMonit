@@ -5,6 +5,6 @@ require "sinatra"
 
 require './lib/usagewatch_class'
 
-require File.expand_path './server.rb', __FILE__
+require './server'
 
 run Sinatra::Application
