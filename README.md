@@ -5,6 +5,12 @@ Agente de Monitoreo en Servidores
 
 Descargarlo desde github via git clone
 
+    git clone https://github.com/rderoldan1/ServerMonit.git
+
+Instalar las dependencias con bundler
+    
+    bundle install
+    
 #### Configuración
 
 1. Crear un host virtual "escuchando" en el puerto 4567, ejemplo de configuración.
