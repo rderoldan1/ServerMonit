@@ -3,7 +3,7 @@ require 'rubygems'
 require 'json'
 require "sinatra"
 
-require './lib/usagewatch_class'
+require 'usagewatch'
 
 require './server'
 
