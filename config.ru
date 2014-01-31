@@ -3,8 +3,9 @@ require 'rubygems'
 require 'json'
 require "sinatra"
 
-require 'usagewatch'
+require 'usagewatch_ext'
 
 require './server'
+
 
 run Sinatra::Application
